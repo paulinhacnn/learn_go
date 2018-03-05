@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/paulinhacnn/Mapas/model"
+	"github.com/paulinhacnn/learn_go/Mapas/model"
 )
 
 var cache map[string]model.Gene
