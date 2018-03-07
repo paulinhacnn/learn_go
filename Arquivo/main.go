@@ -36,9 +36,7 @@ func main() {
 	}
 	tipos := bufio.NewWriter(arquivoJSON)
 	tipos.WriteString("[\r\n")
-	for _, linha := range conteudo {
-		conteudo = model.Medicamento
-		dado := conteudo.Empresa
+	for iLinha, linha := range conteudo {
 		fmt.Printf("Linha[%d] é %s\r\n", iLinha, linha)
 		
 	}
